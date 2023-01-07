@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "question": "Using an attribute selector, how would you select an `<a>` element with a 'title' attribute?",
+        "a": "a[title]{...}",
+        "b": "a > title {...}",
+        "c": "a.title {...}",
+        "d": "a=title {...}",
+        "answer": "a"
+    },
+    {
+        "id": 2,
+        "question": "CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or if you need to support older browser version. What are two valid techniques used to clear floats?",
+        "a": "Use the 'clearfix hack' on the floated element and add a float to the parent element.",
+        "b": "Use the 'clearfix hack' on the floated element or the overflow property on the parent element.",
+        "c": "Use the 'clearfix hack' on the floated element or the overflow property on the parent element.",
+        "d": "Use the 'clearfix hack' on the parent element or use the overflow property with a value other than 'visible.'",
+        "answer": "d"
+    },
+    {
+        "id": 3,
+        "question": "What is the line-height property primarily used for?",
+        "a": "to control the height of the space between two lines of content",
+        "b": "to control the height of the space between heading elements",
+        "c": "to control the height of the character size",
+        "d": "to control the width of the space between characters",
+        "answer": "a"
+    },
+    {
+        "id": 4,
+        "question": "here are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?",
+        "a": "position",
+        "b": "flexbox",
+        "c": "grid",
+        "d": "float",
+        "answer": "a"
+    },
+    {
+        "id": 5,
+        "question": "To change the color of an SVG using CSS, which property is used?",
+        "a": "Use background-fill to set the color inside the object and stroke or border to set the color of the border.",
+        "b": "The color cannot be changed with CSS.",
+        "c": "Use fill or background to set the color inside the object and stroke to set the color",
+        "d": "Use fill to set the color inside the object and stroke to set the color of the border.",
+        "answer": "d"
+    },
+    {
+        "id": 25,
+        "question": "When using position: fixed, what will the element always be positioned relative to?",
+        "a": "the closest element with position: relative",
+        "b": "the viewport",
+        "c": "the parent element",
+        "d": "the wrapper element",
+        "answer": "b"
+    },
+    {
+        "id": 6,
+        "question": "By default, a background image will repeat",
+        "a": "only if the background-repeat property is set to repeat",
+        "b": "indefinitely, vertically, and horizontally",
+        "c": "indefinitely on the horizontal axis only",
+        "d": "once, on the x and y axis",
+        "answer": "b"
+    },
+    {
+        "id": 7,
+        "question": "When using media queries, media types are used to target a device category. Which choice lists current valid media types?",
+        "a": "print, screen, aural",
+        "b": "print, screen, television",
+        "c": "print, screen, speech",
+        "d": "print, speech, device",
+        "answer": "c"
+    },
+    {
+        "id": 8,
+        "question": "How would you make the first letter of every paragraph on the page red?",
+        "a": "p::first-letter { color: red; }",
+        "b": "p:first-letter { color: red; }",
+        "c": "first-letter::p { color: red; }",
+        "d": "first-letter:p { color: red; }",
+        "answer": "a"
+    },
+    {
+        "id": 9,
+        "question": "What is the rem unit based on?",
+        "a": "The rem unit is relative to the font-size of the p element.",
+        "b": "You have to set the value for the rem unit by writing a declaration such as rem",
+        "c": "The rem unit is relative to the font-size of the containing (parent) element.",
+        "d": "The rem unit is relative to the font-size of the root element of the page.",
+        "answer": "d"
+    },
+    {
+        "id": 11,
+        "question": "Which choice would give a block element rounded corners?",
+        "a": "corner-radius: 10px;",
+        "b": "border-corner: 10px;",
+        "c": "corner-curve: 10px;",
+        "d": "border-radius: 10px;",
+        "answer": "d"
+    },
+    {
+        "id": 12,
+        "question": "CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?",
+        "a": "the top left corner of the element",
+        "b": "the center of the element",
+        "c": "the top right corner of the element",
+        "d": "the bottom left of the element",
+        "answer": "a"
+    },
+    {
+        "id": 13,
+        "question": "Which of the following is not a valid color value? (_Alternative:_ Which choice is not a valid color value?)",
+        "a": "color: #000",
+        "b": "color: rgb(0,0,0)",
+        "c": "color: #000000",
+        "d": "color: 000000",
+        "answer": "d"
+    },
+    {
+        "id": 14,
+        "question": "When using the Flexbox method, what property and value is used to display flex items in a column?",
+        "a": "flex-flow: column; or flex-direction: column",
+        "b": "flex-flow: column;",
+        "c": "flex-column: auto;",
+        "d": "flex-direction: column;",
+        "answer": "a"
+    },
+    {
+        "id": 15,
+        "question": "Which type of declaration will take precedence?",
+        "a": "any declarations in user-agent stylesheets",
+        "b": "important declarations in user stylesheets",
+        "c": "normal declarations in author stylesheets",
+        "d": "important declarations in author stylesheets",
+        "answer": "b"
+    },
+    {
+        "id": 16,
+        "question": "What selector and property would you use to scale an element to be 50% smaller on hover?",
+        "a": "element:hover {scale: 0.5;}",
+        "b": "element:hover {transform: scale(0.5);}",
+        "c": "element:hover {scale: 50%;}",
+        "d": "element:hover {transform: scale(50%);}",
+        "answer": "b"
+    },
+    {
+        "id": 17,
+        "question": "Which statement regarding icon fonts is true?",
+        "a": "Icon fonts can be inserted only using JavaScript.",
+        "b": "Icon fonts are inserted as inline images.",
+        "c": "Icon fonts require browser extensions.",
+        "d": "Icon fonts can be styled with typography-related properties such as font-size and color.",
+        "answer": "d"
+    },
+    {
+        "id": 18,
+        "question": "What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?",
+        "a": "padding: 10px 10px 0px 0px;",
+        "b": "padding: 10px 0px;",
+        "c": "padding: 10px 0;",
+        "d": "padding: 10px 0px 10px 0px;",
+        "answer": "a"
+    },
+    {
+        "id": 19,
+        "question": "Which style places an element at a fixed location within its container?",
+        "a": "position: absolute;",
+        "b": "display: flex;",
+        "c": "display: block;",
+        "d": "float: left;",
+        "answer": "a"
+    },
+    {
+        "id": 20,
+        "question": "What is the CSS selector for an `<a>` tag containing the title attribute?",
+        "a": "a[title]",
+        "b": "a > title",
+        "c": "a=title",
+        "d": "a.title",
+        "answer": "a"
+    },
+    {
+        "id": 21,
+        "question": "Which code would you use to absolutely position an element of the logo class?",
+        "a": ".logo { position: absolute; left: 100px; top: 150px; }",
+        "b": ".logo { position: absolute; margin-left: 100px; margin-top: 150px; }",
+        "c": ".logo { position: absolute; padding-left: 100px; padding-top: 150px; }",
+        "d": ".logo { position: absolute; left-padding: 100px; top-padding: 150px; }",
+        "answer": "a"
+    },
+    {
+        "id": 22,
+        "question": "What is the `::placeholder pseudo-element` used for?",
+        "a": "It is used to format the appearance of placeholder text within a form control.",
+        "b": "It specifies the default input text for a form control.",
+        "c": "It writes text content into a hyperlink tooltip.",
+        "d": "It writes text content into any page element.",
+        "answer": "a"
+    },
+    {
+        "id": 23,
+        "question": "Which choice is not valid value for the font-style property?",
+        "a": "normal",
+        "b": "italic",
+        "c": "none",
+        "d": "oblique",
+        "answer": "c"
+    },
+    {
+        "id": 24,
+        "question": "When would you use the @font-face method?",
+        "a": "to set the font size of the text",
+        "b": "to load custom fonts into stylesheet",
+        "c": "to change the name of the font declared in the font-family",
+        "d": "to set the color of the text",
+        "answer": "b"
+    }
+]

@@ -1,0 +1,209 @@
+[
+    {
+        "id": 1,
+        "question": "What is the purpose of the `<track>` tag, and when should it be used?",
+        "a": "The `<track>` tag is used for specifying subtitles. It is typically applied as a child of the `<audio>` and `<video>` tags.",
+        "b": "The `<track>` tag is used for specifying subtitles. It is typically applied as a child of the `<video>` tag.",
+        "c": "The `<track>` tag is used for specifying subtitles, captions, and other types of time-based text. It is typically applied as a child of the `<video>` tag.",
+        "d": "The `<track>` tag is used for specifying subtitles, captions, and other types of time-based text. It is typically applied as a child of the `<audio>` and `<video>` tag.",
+        "answer": "d"
+    },
+    {
+        "id": 2,
+        "question": "What are the best examples of void elements?",
+        "a": "<link><meta><title>",
+        "b": "<br><base><source>",
+        "c": "<input><br><p>",
+        "d": "<area><embed><strong>",
+        "answer": "b"
+    },
+    {
+        "id": 3,
+        "question": "In HTML5, which tag or tags embed a webpage inside of a webpage?",
+        "a": "<iframe>, <frame>, and <frameset>",
+        "b": "<frame>",
+        "c": "<iframe>",
+        "d": "<frame> and <frameset>",
+        "answer": "c"
+    },
+    {
+        "id": 4,
+        "question": "Where do `<header>` and `<footer>` tags typically occur?",
+        "a": "as children of `<body>, <article>, <aside>, and <section>` tags",
+        "b": "as children of `<body>, <article>, and <section>` tags",
+        "c": "as children of `<body>, <article>, <aside>, <nav>, and <section>` tags",
+        "d": "as children of `<body>, <article>, <table>, and <section>` tags",
+        "answer": "b"
+    },
+    {
+        "id": 5,
+        "question": "What is the best way to apply bold styling to text?",
+        "a": "<strong>",
+        "b": "Use CSS",
+        "c": "<bold>",
+        "d": "<b>",
+        "answer": "a"
+    },
+    {
+        "id": 6,
+        "question": "When is the `<link>` tag used?",
+        "a": "when linking style sheets, JavaScript, and icons for mobile apps",
+        "b": "when linking style sheets, favicons, and preloading assets",
+        "c": "when linking one webpage to another",
+        "d": "when linking style sheets, external URLs, and favicons",
+        "answer": "b"
+    },
+    {
+        "id": 7,
+        "question": "When should you use the `<aside>` element?",
+        "a": "when the content can be removed without detracting from the page's message",
+        "b": "for anything you want to move to the side,ì, or an image with text wrapping around it",
+        "c": "for anything in parentheses",
+        "d": "for anything in a sidebar",
+        "answer": "a"
+    },
+    {
+        "id": 8,
+        "question": "With which tags is the `<source>` element associated?",
+        "a": "<svg>, <picture>, <audio>, and <video>",
+        "b": "<picture>, <audio>, and <video>",
+        "c": "It is interchangeable with the `src` attribute, so any element which uses `src` may use `<source>`",
+        "d": "<audio> and <video>",
+        "answer": "b"
+    },
+    {
+        "id": 10,
+        "question": "What is NOT a valid attribute for the `<textarea>` element?",
+        "a": "readonly",
+        "b": "max",
+        "c": "form",
+        "d": "spellcheck",
+        "answer": "b"
+    },
+    {
+        "id": 11,
+        "question": "What is the purpose of the `<samp>` element?",
+        "a": "It connects the web browser to a SA-MP server.",
+        "b": "It identifies enclosed text as a sampler or an example.",
+        "c": "It identifies sample output from a computer program.",
+        "d": "It uses a simple application messaging protocol to connect the browser to a texting device.",
+        "answer": "c"
+    },
+    {
+        "id": 13,
+        "question": "How do you confirm that a document is written in HTML5?",
+        "a": "The server wraps the webpage in an HTML5 wrapper.",
+        "b": "Use the `<!DOCTYPE html>` declaration that starts the document.",
+        "c": "The browser receives encoding from the server to display the document with HTML5.",
+        "d": "It is enclosed in a `<html>` tag.",
+        "answer": "b"
+    },
+    {
+        "id": 14,
+        "question": "Which three tags where deprecated in HTML4 but returned to HTML5?",
+        "a": "<rb> <rp> <rt>",
+        "b": "<acronym> <code> <wbr>",
+        "c": "<hgroup> <q> <wbr>",
+        "d": "<b> <i> <u>",
+        "answer": "a"
+    },
+    {
+        "id": 12,
+        "question": "What does the `<label>` element do?",
+        "a": "It labels webpages with important information.",
+        "b": "It creates an ID for a corresponding input element.",
+        "c": "It creates an ID for a corresponding input element.",
+        "d": "It programmatically associates a text label with an interface element.",
+        "answer": "d"
+    },
+    {
+        "id": 15,
+        "question": "To get a link to open in a new window or tab, use the **\\_** attribute",
+        "a": "_blank",
+        "b": "_self",
+        "c": "_new",
+        "d": "_parent",
+        "answer": "a"
+    },
+    {
+        "id": 16,
+        "question": "What is the best semantic way to indicate that text refers to keyboard entry?",
+        "a": "<p>Press the <tt>Enter</tt> key to proceed.</p>",
+        "b": "<p>Press the <kbd>Enter</kbd> key to proceed.</p>",
+        "c": "<p>Press the <samp>Enter</samp> key to proceed.</p>",
+        "d": "<p>Press the Enter key to proceed.</p>",
+        "answer": "b"
+    },
+    {
+        "id": 17,
+        "question": "What attribute applies a keyboard shortcut hint to the current element?",
+        "a": "accesskey",
+        "b": "shortcut",
+        "c": "keyboard",
+        "d": "access",
+        "answer": "a"
+    },
+    {
+        "id": 18,
+        "question": "Which tag is the root element of an HTML document?",
+        "a": "<DOCTYPE html>",
+        "b": "html>",
+        "c": "<body>",
+        "d": "<root>",
+        "answer": "b"
+    },
+    {
+        "id": 19,
+        "question": "What is the correct way to code a link that, when clicked, will send an email to `email@example.com` with a subject of 'Hello'?",
+        "a": "<a href='mailto:email@example.com&subject=Hello'>Click me</a>",
+        "b": "<a href='mailto:email@example.com'>Hello</a>",
+        "c": "<a href='mailto:email@example.com?subject=Hello'>Click me</a>",
+        "d": "<a href='mailto:email@example.com?&subject=Hello'>Click me</a>",
+        "answer": "c"
+    },
+    {
+        "id": 20,
+        "question": "Which choice is NOT a legal value for the **name** attribute within a `<meta>` tag?",
+        "a": "charset",
+        "b": "viewport",
+        "c": "generator",
+        "d": "author",
+        "answer": "a"
+    },
+    {
+        "id": 21,
+        "question": "Which choice contains three valid block-level elements?</li>",
+        "a": "<details> <abbr> <figcaption>",
+        "b": "<canvas> <select> <noscript>",
+        "c": "<dt> <table> <pre>",
+        "d": "<kbd> <p> <main>",
+        "answer": "c"
+    },
+    {
+        "id": 22,
+        "question": "Which image formats can be displayed by all web browsers?",
+        "a": "JPG, GIF, TIF",
+        "b": "JPG, TIF, BMP",
+        "c": "TIF, BMP, GIF",
+        "d": "PNG, GIF, JPG",
+        "answer": "d"
+    },
+    {
+        "id": 23,
+        "question": "Which statement is **false**?",
+        "a": "Inline elements can be nested inside inline elements.",
+        "b": "Block elements can be nested inside block elements.",
+        "c": "Inline elements can be nested inside block elements.",
+        "d": "Block elements can be nested inside inline elements.",
+        "answer": "d"
+    },
+    {
+        "id": 24,
+        "question": "Which choice is not a legal type attribute for the `<input>` tag?",
+        "a": "<input type='color'>",
+        "b": "<input type='tel'>",
+        "c": "<input type='week'>",
+        "d": "<input type='num'>",
+        "answer": "d"
+    }
+]
